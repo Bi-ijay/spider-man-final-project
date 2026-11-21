@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spider-Man Fan Contact</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header id="site-header">
+        <h1>Spider-Man Fan Site</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="spider-man.html">Spider-Man</a>
+        <a href="green-goblin.html">Green Goblin</a>
+        <a href="doctor-octopus.html">Doctor Octopus</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Spider-Man Fan Form</h2>
+       <form id="fan-form" method="POST">
+    <p class="form-notice">Demo form: information stays in your browser and is not sent or stored.</p>
+    <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    </p>
+
+    <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </p>
+    <p>
+    <label for="phone">Phone Number:</label>
+    <input type="tel"
+           id="phone"
+           name="phone"
+           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+           title="Enter phone number as 123-456-7890">
+</p>
+
+<p>
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday">
+</p>
+<p>
+    <label for="fanlevel">Fan Level (1-10):</label>
+    <input type="number" id="fanlevel" name="fanlevel" min="1" max="10">
+</p>
+
+<p>
+    <label for="favoritecolor">Favorite Color:</label>
+    <input type="color" id="favoritecolor" name="favoritecolor">
+</p>
+<p>
+    <label for="character">Favorite Character:</label>
+
+    <select id="character" name="character" required>
+        <option value="">Choose a character</option>
+        <option value="spider-man">Spider-Man</option>
+        <option value="green-goblin">Green Goblin</option>
+        <option value="doctor-octopus">Doctor Octopus</option>
+        <option value="mary-jane">Mary Jane</option>
+    </select>
+</p>
+<fieldset>
+    <legend>What do you like about Spider-Man?</legend>
+
+    <input type="checkbox" id="action" name="interest" value="action">
+    <label for="action">Action</label>
+
+    <input type="checkbox" id="characters" name="interest" value="characters">
+    <label for="characters">Characters</label>
+
+    <input type="checkbox" id="story" name="interest" value="story">
+    <label for="story">Story</label>
+</fieldset>
+<p>
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+</p>
+
+<p>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</p>
+
+    <p id="form-status" role="status" aria-live="polite"></p>
+</form>
+<h2>Spider Video</h2>
+
+<video controls width="500" aria-label="Spider-Man video clip">
+    <source src="media/clip.mp4" type="video/mp4">
+    Your browser does not support the video element.
+</video>
+<h2>Spider Sound</h2>
+
+<audio controls aria-label="Spider-Man sound clip">
+    <source src="media/spider-sound.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+<!-- This image is decorative because it is used only for visual appearance and does not add new information. -->
+<img src="images/spider-man.jpg" alt="">
+    </main>
+    <script src="contact.js"></script>
+
+    <footer>
+        <p>Spider-Man Fan Site</p>
+    </footer>
+
+</body>
+
+</html>

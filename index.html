@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spider-Man Website Home</title>
+   <link rel="stylesheet" href="style.css" />
+ </head>
+<body>
+
+    
+<header id="site-header">
+        <h1>Spider-Man</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="spider-man.html">Spider-Man</a>
+            <a href="green-goblin.html">Green Goblin</a>
+        <a href="doctor-octopus.html">Doctor Octopus</a>
+<a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <p>
+            Spider-Man is a popular superhero known for his spider-like
+            abilities, quick thinking, and strong sense of responsibility.
+        </p>
+
+        <p>
+            This website introduces Spider-Man and two of his well-known
+            enemies, Green Goblin and Doctor Octopus.
+        </p>
+
+        <h2>Learn More</h2>
+ 
+<section class="card-row">
+    <article class="card">
+        <h2>Spider-Man</h2>
+        <p>A superhero with spider-like abilities.</p>
+        <a href="spider-man.html">Read more</a>
+    </article>
+
+    <article class="card">
+        <h2>Green Goblin</h2>
+        <p>One of Spider-Man's most famous enemies.</p>
+        <a href="green-goblin.html">Read more</a>
+    </article>
+
+    <article class="card">
+        <h2>Doctor Octopus</h2>
+        <p>A scientist with powerful mechanical arms.</p>
+        <a href="doctor-octopus.html">Read more</a>
+    </article>
+</section>
+
+        <section class="quiz" aria-labelledby="quiz-heading">
+            <h2 id="quiz-heading">Spider-Man Trivia Quiz</h2>
+            <p>Answer three questions to test your Spider-Man knowledge.</p>
+            <p id="quiz-progress" aria-live="polite"></p>
+            <p id="quiz-question"></p>
+            <label for="quiz-answer">Choose your answer:</label>
+            <select id="quiz-answer">
+                <option value="">Select an answer</option>
+            </select>
+            <button type="button" id="quiz-check">Check Answer</button>
+            <p id="quiz-feedback" role="status" aria-live="polite"></p>
+            <p id="quiz-score" aria-live="polite"></p>
+            <button type="button" id="quiz-restart" hidden>Try Again</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by Bijay Dhakal</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

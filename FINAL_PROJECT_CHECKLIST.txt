@@ -1,0 +1,12 @@
+SPIDER-MAN FINAL PROJECT — NEXT STEPS
+
+This is an improved starting copy of Assignment 5. It has NOT been verified by W3C/WAVE/axe or deployed.
+
+1. Open index.html and try the quiz, all navigation links, and the Contact page.
+2. The contact form is now a LOCAL DEMO: it validates but does not send data. If your professor requires actual submission, configure a trusted form backend and verify POST delivery before publishing.
+3. Run the W3C HTML validator on each page and fix any errors.
+4. Run WAVE or axe on every page; fix reported errors.
+5. Test 375px, 768px and 1280px, keyboard-only navigation, and browser console.
+6. Check media rights before publishing images, audio or video publicly.
+7. Publish the contents of this folder with index.html at the REPOSITORY ROOT on GitHub, then deploy with Vercel.
+8. Test the PUBLIC URL and prepare the presentation with actual results.
